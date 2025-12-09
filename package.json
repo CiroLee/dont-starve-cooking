@@ -1,0 +1,38 @@
+{
+  "name": "dont-starve-cooking",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "enum-plus": "^3.1.6",
+    "motion": "^12.23.25",
+    "next": "16.0.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^20.2.0",
+    "@eslint/eslintrc": "^3.3.3",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "commitlint": "^20.2.0",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.0.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
+}

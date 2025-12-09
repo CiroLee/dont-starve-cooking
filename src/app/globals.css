@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #2c2925;
+  --color-text: #e7cc7b;
+}
+
+body {
+  color: white;
+  min-height: 100dvh;
+  line-height: 1.5;
+}
+
+@layer components {
+  .fixed-bg {
+    background: url('/images/game/dont-starve-food-bg.webp') center / cover no-repeat;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100dvh;
+    z-index: -1;
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 44%));
+    }
+  }
+}
